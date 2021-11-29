@@ -7,7 +7,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "Webitos";
 const description = "Webitos Description ";
-const baseUri = "ipfs://QmUQg6H7VGZHme26e6L7MMUXeQpt625zqVG8tBCrwmN5nq";
+const baseUri = "ipfs://WEDONTCARETHISPART";
 
 const solanaMetadata = {
   symbol: "YC",
@@ -28,123 +28,123 @@ const layerConfigurations = [
     growEditionSizeTo: 14,
     layersOrder: [
       { name: "Background" },
-      // { name: "Accessory_Back" },
+      { name: "Accessory_Back" },
       { name: "Body" },
-      // { name: "BodyCondition" },
+      { name: "BodyCondition" },
       { name: "Head" },
       { name: "Eyes" },
       { name: "Mouth" },
-      // { name: "Tattoos" },
-      // { name: "Hair" },
-      // { name: "Piercings" },
-      // { name: "Accessory_Top" },
-      // { name: "Accessory_Bottom" },
+      { name: "Tattoos" },
+      { name: "Hair" },
+      { name: "Piercings" },
+      { name: "Accessory_Top" },
+      { name: "Accessory_Bottom" },
     ],
   },
-  // // Hood - Accessory Body
-  // {
-  //   growEditionSizeTo: 28,
-  //   layersOrder: [
-  //     { name: "Background" },
-  //     { name: "Accessory_Back" },
-  //     { name: "Hood" },
-  //     { name: "BodyCondition" },
-  //     { name: "Eyes" },
-  //     { name: "Mouth" },
-  //     { name: "Tattoos" },
-  //     { name: "Hair" },
-  //     { name: "Piercings" },
-  //     { name: "Accessory_Top" },
-  //     { name: "Accessory_Bottom" },
-  //   ],
-  // },
-  // // Condom - Accessory Body
-  // {
-  //   growEditionSizeTo: 42,
-  //   layersOrder: [
-  //     { name: "Background" },
-  //     { name: "Accessory_Back" },
-  //     { name: "CondomColor" },
-  //     { name: "Hair" },
-  //     { name: "BodyCondition" },
-  //     { name: "Tattoos" },
-  //     { name: "Piercings" },
-  //     { name: "Condom" },
-  //     { name: "Eyes" },
-  //     { name: "Mouth" },
-  //     { name: "Accessory_Top" },
-  //     { name: "Accessory_Bottom" },
-  //   ],
-  // },
-  // // Body - Piercings
-  // {
-  //   growEditionSizeTo: 56,
-  //   layersOrder: [
-  //     { name: "Background" },
-  //     { name: "Accessory_Back" },
-  //     { name: "Body" },
-  //     { name: "BodyCondition" },
-  //     { name: "Head" },
-  //     { name: "Eyes" },
-  //     { name: "Mouth" },
-  //     { name: "Tattoos" },
-  //     { name: "Hair" },
-  //     { name: "Accessory_Top" },
-  //     { name: "Accessory_Body" },
-  //     { name: "Accessory_Bottom" },
-  //   ],
-  // },
-  // // Hood - Piercings
-  // {
-  //   growEditionSizeTo: 71,
-  //   layersOrder: [
-  //     { name: "Background" },
-  //     { name: "Accessory_Back" },
-  //     { name: "Hood" },
-  //     { name: "BodyCondition" },
-  //     { name: "Eyes" },
-  //     { name: "Mouth" },
-  //     { name: "Tattoos" },
-  //     { name: "Hair" },
-  //     { name: "Accessory_Top" },
-  //     { name: "Accessory_Body" },
-  //     { name: "Accessory_Bottom" },
-  //   ],
-  // },
+  // Hood - Accessory Body
+  {
+    growEditionSizeTo: 28,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Accessory_Back" },
+      { name: "Hood" },
+      { name: "BodyCondition" },
+      { name: "Eyes" },
+      { name: "Mouth" },
+      { name: "Tattoos" },
+      { name: "Hair" },
+      { name: "Piercings" },
+      { name: "Accessory_Top" },
+      { name: "Accessory_Bottom" },
+    ],
+  },
+  // Condom - Accessory Body
+  {
+    growEditionSizeTo: 42,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Accessory_Back" },
+      { name: "CondomColor" },
+      { name: "Hair" },
+      { name: "BodyCondition" },
+      { name: "Tattoos" },
+      { name: "Piercings" },
+      { name: "Condom" },
+      { name: "Eyes" },
+      { name: "Mouth" },
+      { name: "Accessory_Top" },
+      { name: "Accessory_Bottom" },
+    ],
+  },
+  // Body - Piercings
+  {
+    growEditionSizeTo: 56,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Accessory_Back" },
+      { name: "Body" },
+      { name: "BodyCondition" },
+      { name: "Head" },
+      { name: "Eyes" },
+      { name: "Mouth" },
+      { name: "Tattoos" },
+      { name: "Hair" },
+      { name: "Accessory_Top" },
+      { name: "Accessory_Body" },
+      { name: "Accessory_Bottom" },
+    ],
+  },
+  // Hood - Piercings
+  {
+    growEditionSizeTo: 71,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Accessory_Back" },
+      { name: "Hood" },
+      { name: "BodyCondition" },
+      { name: "Eyes" },
+      { name: "Mouth" },
+      { name: "Tattoos" },
+      { name: "Hair" },
+      { name: "Accessory_Top" },
+      { name: "Accessory_Body" },
+      { name: "Accessory_Bottom" },
+    ],
+  },
 
-  // // Condom - Piercings
-  // {
-  //   growEditionSizeTo: 85,
-  //   layersOrder: [
-  //     { name: "Background" },
-  //     { name: "Accessory_Back" },
-  //     { name: "CondomColor" },
-  //     { name: "Hair" },
-  //     { name: "BodyCondition" },
-  //     { name: "Tattoos" },
-  //     { name: "Condom" },
-  //     { name: "Eyes" },
-  //     { name: "Mouth" },
-  //     { name: "Accessory_Top" },
-  //     { name: "Accessory_Body" },
-  //     { name: "Accessory_Bottom" },
-  //   ],
-  // },
+  // Condom - Piercings
+  {
+    growEditionSizeTo: 85,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Accessory_Back" },
+      { name: "CondomColor" },
+      { name: "Hair" },
+      { name: "BodyCondition" },
+      { name: "Tattoos" },
+      { name: "Condom" },
+      { name: "Eyes" },
+      { name: "Mouth" },
+      { name: "Accessory_Top" },
+      { name: "Accessory_Body" },
+      { name: "Accessory_Bottom" },
+    ],
+  },
 
-  // // Suits
-  // {
-  //   growEditionSizeTo: 100,
-  //   layersOrder: [
-  //     { name: "Background" },
-  //     { name: "Accessory_Back" },
-  //     { name: "Suits" },
-  //     { name: "Head" },
-  //     { name: "Eyes" },
-  //     { name: "Mouth" },
-  //     { name: "Accessory_Top" },
-  //     { name: "Accessory_Body" },
-  //   ],
-  // },
+  // Suits
+  {
+    growEditionSizeTo: 100,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Accessory_Back" },
+      { name: "Suits" },
+      { name: "Head" },
+      { name: "Eyes" },
+      { name: "Mouth" },
+      { name: "Accessory_Top" },
+      { name: "Accessory_Body" },
+    ],
+  },
 ];
 
 const shuffleLayerConfigurations = true;
