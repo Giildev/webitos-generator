@@ -5,9 +5,9 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Your Collection";
-const description = "Remember to replace this description";
-const baseUri = "ipfs://NewUriToReplace";
+const namePrefix = "Webitos";
+const description = "Webitos Description ";
+const baseUri = "ipfs://QmUQg6H7VGZHme26e6L7MMUXeQpt625zqVG8tBCrwmN5nq";
 
 const solanaMetadata = {
   symbol: "YC",
@@ -23,35 +23,145 @@ const solanaMetadata = {
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
+  // Body - Accessory Body
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 14,
     layersOrder: [
       { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      // { name: "Accessory_Back" },
+      { name: "Body" },
+      // { name: "BodyCondition" },
+      { name: "Head" },
+      { name: "Eyes" },
+      { name: "Mouth" },
+      // { name: "Tattoos" },
+      // { name: "Hair" },
+      // { name: "Piercings" },
+      // { name: "Accessory_Top" },
+      // { name: "Accessory_Bottom" },
     ],
   },
+  // // Hood - Accessory Body
+  // {
+  //   growEditionSizeTo: 28,
+  //   layersOrder: [
+  //     { name: "Background" },
+  //     { name: "Accessory_Back" },
+  //     { name: "Hood" },
+  //     { name: "BodyCondition" },
+  //     { name: "Eyes" },
+  //     { name: "Mouth" },
+  //     { name: "Tattoos" },
+  //     { name: "Hair" },
+  //     { name: "Piercings" },
+  //     { name: "Accessory_Top" },
+  //     { name: "Accessory_Bottom" },
+  //   ],
+  // },
+  // // Condom - Accessory Body
+  // {
+  //   growEditionSizeTo: 42,
+  //   layersOrder: [
+  //     { name: "Background" },
+  //     { name: "Accessory_Back" },
+  //     { name: "CondomColor" },
+  //     { name: "Hair" },
+  //     { name: "BodyCondition" },
+  //     { name: "Tattoos" },
+  //     { name: "Piercings" },
+  //     { name: "Condom" },
+  //     { name: "Eyes" },
+  //     { name: "Mouth" },
+  //     { name: "Accessory_Top" },
+  //     { name: "Accessory_Bottom" },
+  //   ],
+  // },
+  // // Body - Piercings
+  // {
+  //   growEditionSizeTo: 56,
+  //   layersOrder: [
+  //     { name: "Background" },
+  //     { name: "Accessory_Back" },
+  //     { name: "Body" },
+  //     { name: "BodyCondition" },
+  //     { name: "Head" },
+  //     { name: "Eyes" },
+  //     { name: "Mouth" },
+  //     { name: "Tattoos" },
+  //     { name: "Hair" },
+  //     { name: "Accessory_Top" },
+  //     { name: "Accessory_Body" },
+  //     { name: "Accessory_Bottom" },
+  //   ],
+  // },
+  // // Hood - Piercings
+  // {
+  //   growEditionSizeTo: 71,
+  //   layersOrder: [
+  //     { name: "Background" },
+  //     { name: "Accessory_Back" },
+  //     { name: "Hood" },
+  //     { name: "BodyCondition" },
+  //     { name: "Eyes" },
+  //     { name: "Mouth" },
+  //     { name: "Tattoos" },
+  //     { name: "Hair" },
+  //     { name: "Accessory_Top" },
+  //     { name: "Accessory_Body" },
+  //     { name: "Accessory_Bottom" },
+  //   ],
+  // },
+
+  // // Condom - Piercings
+  // {
+  //   growEditionSizeTo: 85,
+  //   layersOrder: [
+  //     { name: "Background" },
+  //     { name: "Accessory_Back" },
+  //     { name: "CondomColor" },
+  //     { name: "Hair" },
+  //     { name: "BodyCondition" },
+  //     { name: "Tattoos" },
+  //     { name: "Condom" },
+  //     { name: "Eyes" },
+  //     { name: "Mouth" },
+  //     { name: "Accessory_Top" },
+  //     { name: "Accessory_Body" },
+  //     { name: "Accessory_Bottom" },
+  //   ],
+  // },
+
+  // // Suits
+  // {
+  //   growEditionSizeTo: 100,
+  //   layersOrder: [
+  //     { name: "Background" },
+  //     { name: "Accessory_Back" },
+  //     { name: "Suits" },
+  //     { name: "Head" },
+  //     { name: "Eyes" },
+  //     { name: "Mouth" },
+  //     { name: "Accessory_Top" },
+  //     { name: "Accessory_Body" },
+  //   ],
+  // },
 ];
 
-const shuffleLayerConfigurations = false;
+const shuffleLayerConfigurations = true;
 
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
-  smoothing: false,
+  width: 1200,
+  height: 1200,
+  smoothing: true,
 };
 
 const gif = {
-  export: false,
+  export: true,
   repeat: 0,
   quality: 100,
-  delay: 500,
+  delay: 1000,
 };
 
 const text = {
@@ -78,15 +188,23 @@ const background = {
   default: "#000000",
 };
 
-const extraMetadata = {};
+const extraMetadata = {
+  Authors: [
+    { name: "Giildev", url: "https://twitter.com/GiilDev" },
+    { name: "RockinRobert", url: "https://twitter.com/RockinRobertart" },
+    { name: "Nyahmin", url: "" },
+    { name: "Compota", url: "" },
+    { name: " Frozono", url: "" },
+  ],
+};
 
 const rarityDelimiter = "#";
 
 const uniqueDnaTorrance = 10000;
 
 const preview = {
-  thumbPerRow: 5,
-  thumbWidth: 50,
+  thumbPerRow: 10,
+  thumbWidth: 100,
   imageRatio: format.height / format.width,
   imageName: "preview.png",
 };
